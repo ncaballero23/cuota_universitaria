@@ -1,0 +1,62 @@
+
+body, div {
+  background-color: white;
+  display: grid;
+  align-content: center;
+  text-align: center;
+}
+
+.content{
+  color: #3f2aad;
+}
+
+.grid-box, .grid-box_, ._grid-boox_ {
+  display: grid;
+}
+.grid-box {
+  grid-template-columns: auto auto auto;
+}
+ .grid-box_ {
+  grid-template-columns: auto auto;
+}
+._grid-box_ {
+  grid-template-columns: auto;
+}
+
+.box-02, .box-10 {
+  grid-column: 2 / span 2;
+  justify-content: start;
+}
+
+.box-05, .box-08 {
+  justify-content: start;
+}
+
+.ombx-01, .ombx-03, .ombx-05, .ombx-07,
+.ombx-09, .ombx-11, .ombx-13, .ombx-15,
+.ombx-17 {
+  justify-content: end;
+}
+
+input {
+  border-color: white;
+  border-radius: 25px;
+  width: 150px;
+  height: 20px;
+}
+
+button {
+  color: white;
+  background-color: #3f2aad;
+  width: 110px;
+  height: 37px;
+  border-radius: 25px;
+  border-color: white;
+}
+
+.calculadora {
+  color: #42ded1;
+}
+.informematricula {
+  color: red;
+}
