@@ -2,10 +2,12 @@ import './App.css'
 
 export function OrdenMatricula() {
     return(
-        <>
-        <h3 className='informematricula'>Esta es la information de tu orden de matricula</h3>
-        
+        <>     
         <section className="grid-box_">
+            <div className='content box-lb'>
+                <h3 className='informematricula'>Esta es la information de tu orden de matricula</h3>
+            </div>
+
             <div className='content ombx-01'>
                 <label htmlFor="">N° Orden de matricula:</label>
             </div>
@@ -36,17 +38,21 @@ export function OrdenMatricula() {
             <div className='content ombx-08'>
                 <input type="text" />
             </div>
-        </section>
-       
-        <h3 className='calculadora'>Calculadora de finalizacion con Educación Estrella</h3>
-        
-        <section className='grid-box_'>        
+
+            <div className='content box-lb'>
+                <h3 className='calculadora'>Calculadora de finalizacion con Educación Estrella</h3>
+            </div>
+
             <div className='content ombx-09'>
                 <label htmlFor="">¿Incluir el seguro de la Universidad en la financiación?</label>
             </div>
             
             <div className='content ombx-10'>
-                <input type="text" name="" id="" />
+                <select name='seguro'>
+                    <option value="si">Si</option>
+                    <option value="no">No</option>
+                </select>
+                
             </div>
             
             <div className='content ombx-11'>
@@ -54,7 +60,7 @@ export function OrdenMatricula() {
             </div>
             
             <div className='content ombx-12'>
-                <input type="text" />
+                <input type="text" name="" id="" />
             </div>
            
             <div className='content ombx-13'>
@@ -80,10 +86,8 @@ export function OrdenMatricula() {
             <div className='content ombx-18'>
                 <input type="text" />
             </div>
-        </section>
-        
-        <section className='_grid-box_'>
-            <div className='content'>
+
+            <div className='content box-lb'>
                 <label htmlFor="">¡Llegó el momento de calcular el tiempo y cuota de tu financiación!</label>
             </div>
             

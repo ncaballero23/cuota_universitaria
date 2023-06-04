@@ -46,9 +46,8 @@ function App() {
       </div>
       <div className='content box-08'>
         <h5>
-          valor solicitado para el estudio $10.000.000
-          <br />
-          *Este valor no podrá ser modificado mas de un 10%
+          valor solicitado para el estudio $10.000.000 (*Este valor no podrá ser modificado mas de un 10%)
+          
         </h5>
       </div>
 

@@ -5,6 +5,6 @@ import { OrdenMatricula } from './OrdenMatricula.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <OrdenMatricula />
+    <App />
   </React.StrictMode>,
 )
